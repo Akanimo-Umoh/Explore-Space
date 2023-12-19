@@ -1,0 +1,326 @@
+.app-container.technology {
+    background: url(../assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+
+.technology_ctn {
+    color: #ffffff;
+}
+
+.space_launch {
+    width: 305px;
+    /* border: 1px solid white; */
+    height: 34px;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 166.5px;
+    margin-top: 76px;
+}
+
+.space_launch span {
+    color: hsl(0, 0%, 25%);
+}
+
+.num {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    background: hsl(0, 0%, 38%);
+}
+
+.num:not(.active_num) p {
+    /* border: 1px solid red; */
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 45deg;
+    background: #0B0D17;
+}
+
+.num {
+    margin-bottom: 32px;
+}
+
+.num p span {
+    rotate: -45deg;
+    font-size: 32px;
+    font-family: var(--bellefair-font);
+    letter-spacing: 2px;
+}
+
+.num:hover {
+    cursor: pointer;
+}
+
+.num:hover:not(.active_num) {
+    background: #0B0D17;
+    border: 1px solid #ffffff;
+}
+
+.active_num {
+    /* border: 1px solid red; */
+    background: #ffffff;
+    color: #0B0D17;
+}
+
+.tech_abt {
+    display: none;
+}
+
+.active_tech_abt {
+    display: block;
+}
+
+.techImg {
+    display: none;
+}
+
+.active_techImg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main_ctn {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 101px;
+    margin-top: 26px;
+}
+
+.primaryTech_ctn {
+    display: flex;
+    /* border: 1px solid white; */
+    margin-left: 165px;
+    margin-top: 137px;
+}
+
+.tech_ctn {
+    width: 470px;
+    margin-left: 80px;
+    /* border: 1px solid white; */
+}
+
+.terminology {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    color: var(--sky-blue);
+}
+
+.launch {
+    font-size: 56px;
+    font-family: var(--bellefair-font);
+    margin-top: 11px;
+}
+
+.tech_details {
+    width: 444px;
+    font-size: 18px;
+    font-family: var(--barlow-font);
+    line-height: 32px;
+    color: var(--sky-blue);
+    margin-top: 17px;
+}
+
+@media screen and (max-width: 1439px) {
+    .primaryTech_ctn {
+        margin-left: 80px;
+    }
+
+    .space_launch {
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .primaryTech_ctn {
+        margin-left: 40px;
+    }
+
+    .space_launch {
+        margin-left: 40px;
+    }
+
+    .launch {
+        font-size: 46px;
+    }
+
+    .tech_ctn {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .app-container.technology {
+        background: url(../assets/technology/background-technology-tablet.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .space_launch {
+        margin-top: 40px;
+        margin-left: 38.5px;
+        font-size: 20px;
+        letter-spacing: 3.38px;
+        width: 217px;
+        height: 24px;
+    }
+
+    .main_ctn {
+        flex-direction: column-reverse;
+        /* border: 1px solid red; */
+        margin-top: 60px;
+        padding-bottom: 97px;
+    }
+
+    .primaryTech_ctn {
+        /* border: 1px solid white; */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 56px;
+    }
+
+    .active_techImg {
+        /* height: 310px; */
+        margin: auto;
+        width: 100%;
+    }
+
+    .tech_index {
+        display: flex;
+        width: 210px;
+        /* border: 1px solid red; */
+        height: 60px;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .num {
+        width: 60px;
+        height: 60px;
+    }
+
+    .num:not(.active_num) p {
+        width: 40px;
+        height: 40px;
+    }
+
+    .num p span {
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+
+    .tech_ctn {
+        width: 458px;
+        height: 237px;
+        margin: auto;
+        /* border: 1px solid white; */
+        margin-top: 44px;
+    }
+
+    .terminology {
+        text-align: center;
+        /* margin-top: 44px; */
+    }
+
+    .launch {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .tech_details {
+        width: 458px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 28px;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app-container.technology {
+        background: url(../assets/technology/background-technology-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .space_launch {
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    .active_techImg {
+        /* width: 374px; */
+        /* height: 170px; */
+    }
+
+    .main_ctn {
+        margin-top: 32px;
+        padding-bottom: 81px;
+    }
+
+    .tech_index {
+        width: 152px;
+        height: 40px;
+    }
+
+    .num {
+        width: 40px;
+        height: 40px;
+    }
+
+    .num:not(.active_num) p {
+        width: 28px;
+        height: 28px;
+    }
+
+    .num p span {
+        font-size: 16px;
+    }
+
+    .primaryTech_ctn {
+        margin-top: 34px;
+    }
+
+    .tech_ctn {
+        margin-top: 26px;
+        /* border: 1px solid white; */
+        width: 327px;
+        height: 220px;
+    }
+
+    .terminology {
+        letter-spacing: 2.36px;
+        font-size: 14px;
+    }
+
+    .launch {
+        font-size: 24px;
+        margin-top: 9px;
+    }
+
+    .tech_details {
+        width: 327px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 16px;
+    }
+}

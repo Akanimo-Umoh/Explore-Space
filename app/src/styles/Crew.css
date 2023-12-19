@@ -1,0 +1,401 @@
+.app-container.crew {
+    background: url(../assets/crew/background-crew-desktop.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.crew_ctn {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile_meet {
+    display: none;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    color: #ffffff;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+.circle:not(.active_circle) {
+    background: hsl(0, 0%, 17.44%);
+}
+
+.meet {
+    /* border: 1px solid white; */
+    width: 286px;
+    height: 34px;
+    letter-spacing: 4.72px;
+    font-size: 28px;
+    margin-left: 166.5px;
+}
+
+.meet span {
+    color: hsl(0, 0%, 25%);
+    margin-right: 10px;
+}
+
+.crew_info {
+    /* border: 1px solid white; */
+    margin-top: 154px;
+    height: 300px;
+}
+
+.crew_main {
+    /* margin-left: 165.5px; */
+    margin-top: 76px;
+}
+
+.crew_title {
+    font-family: var(--bellefair-font);
+    font-size: 32px;
+    color: hsl(0, 0%, 51%);
+    margin-left: 165.5px;
+}
+
+.crew_name {
+    font-size: 56px;
+    font-family: var(--bellefair-font);
+    margin-left: 165.5px;
+    margin-top: 15px;
+}
+
+.crew_abt {
+    width: 444px;
+    /* border: 1px solid white; */
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--barlow-font);
+    color: var(--sky-blue);
+    margin-left: 165px;
+    margin-top: 15px;
+}
+
+.circle_ctn {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 132px;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    margin-left: 167px;
+    margin-top: 88px;
+}
+
+.crew_img_ctn {
+    /* border: 1px solid white; */
+    /* width: 568.07px; */
+    /* height: 712px; */
+    margin-right: 137px;
+    /* text-align: right; */
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
+}
+
+.douglas_img {
+    margin-top: 62px;
+}
+
+.mark_img {
+    margin-top: 110px;
+    height: 654px;
+}
+
+.victor_img {
+    margin-top: 110px;
+    height: 681px;
+}
+
+.anousheh_img {
+    height: 607px;
+    margin-top: 158px;
+}
+
+br {
+    display: none;
+}
+
+.activeCrewImage {
+    display: none;
+}
+
+.activeCrew {
+    display: block;
+}
+
+.crewContent {
+    display: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .crew_img_ctn {
+        margin-right: 80px;
+    }
+
+    .meet, .crew_title, .crew_abt, .circle_ctn, .crew_name {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .crew_img_ctn {
+        margin-right: 70px;
+    }
+
+    .meet, .crew_title, .crew_abt, .circle_ctn, .crew_name {
+        margin-left: 70px;
+    }
+}
+
+/* @media screen and (max-width: 1100px) {
+    .crew_img_ctn {
+        margin-right: 70px;
+    }
+
+    .meet, .crew_title, .crew_abt, .circle_ctn, .crew_name {
+        margin-left: 70px;
+    }
+} */
+
+@media screen and (max-width: 1099px) {
+    .app-container.crew {
+        background: url(../assets/crew/background-crew-tablet.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    br {
+        display: block;
+    }
+
+    .meet {
+        width: 204px;
+        height: 24px;
+        letter-spacing: 3.38px;
+        font-size: 20px;
+        margin-left: 38.5px;
+    }
+
+    .meet span {
+        margin-right: 7px;
+    }
+
+    .crew_main {
+        margin-top: 40px;
+    }
+
+    .crew_img_ctn {
+        position: relative;
+        margin: 0;
+        text-align: center;
+        /* margin-top: 40px; */
+    }
+
+    .circle_ctn {
+        margin: auto;
+        margin-top: 40px;
+        width: 88px;
+    }
+
+    .crew_ctn {
+        display: block;
+    }
+
+    .crew_info {
+        /* border: 1px solid white; */
+        /* width: 458px; */
+        height: 182px;
+        margin: auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .crew_title {
+        font-size: 24px;
+        color: hsl(0, 0%, 49.94%);
+        margin: 0;
+    }
+
+    .crew_name {
+        font-size: 40px;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .crew_abt {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 16px;
+        line-height: 28px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .crew_img {
+        width: auto;
+        height: 532px;
+        object-fit: contain;
+    }
+
+    .douglas_img {
+        margin-top: 40px;
+        height: 572px;
+    }
+
+    .mark_img {
+        height: 532px;
+        margin-top: 40px;
+    }
+
+    .victor_img {
+        height: 532px;
+        margin-top: 40px;
+    }
+
+    .anousheh_img {
+        margin-top: 40px;
+        height: 532px;
+    }
+
+    .douglas {
+        width: 458px;
+    }
+
+    .mark {
+        width: 520px;
+    }
+
+    .victor {
+        width: 592px;
+    }
+
+    .anousheh {
+        width: 536px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app-container.crew {
+        background: url(../assets/crew/background-crew-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .meet {
+        width: 166px;
+        height: 19px;
+        letter-spacing: 2.7px;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .crew_main {
+        margin-top: 24px;
+    }
+
+    .crew_ctn {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 92px;
+    }
+
+    .meet {
+        display: none;
+    }
+
+    .mobile_meet {
+        display: block;
+        margin-top: 24px;
+    }
+
+    .crew_img {
+        width: auto;
+        height: 223px;
+    }
+
+    .crew_img_ctn {
+        width: 327px;
+        margin: auto;
+        height: 223px;
+        border-bottom: 1px solid #383B4B;
+        margin-top: 32px;
+    }
+
+    .crew_main {
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 1px solid white; */
+        margin-top: 32px;
+    }
+
+    .circle_ctn {
+        width: 88px;
+        height: 10px;
+        margin-top: 32px;
+        margin: auto;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .crew_title {
+        color: hsl(0, 0%, 49.51%);
+        font-size: 16px;
+    }
+
+    .crew_info {
+        margin-top: 32px;
+        width: 327px;
+    }
+
+    .crew_name {
+        font-size: 24px;
+    }
+
+    .crew_abt {
+        font-size: 15px;
+        width: 327px;
+        line-height: 25px;
+    }
+
+    .douglas_img {
+        /* height: 223px; */
+        margin: 0;
+    }
+
+    .mark_img {
+        margin: 0;
+    }
+
+    .victor_img {
+        margin: 0;
+    }
+
+    .anousheh_img {
+        margin: 0;
+    }
+}

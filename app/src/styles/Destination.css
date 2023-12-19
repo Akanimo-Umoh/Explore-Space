@@ -1,0 +1,345 @@
+.app-container.destination {
+    background: url(../assets/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.pick_ctn {
+    color: #ffffff;
+    letter-spacing: 4.72px;
+    font-size: 28px;
+    height: 34px;
+    width: 382px;
+    /* border: 1px solid white; */
+    margin-left: 166.5px;
+    margin-top: 76px;
+}
+
+.pick_ctn span {
+    font-weight: bold;
+    color: hsl(0, 0%, 25%);
+    margin-right: 12px;
+}
+
+.info_ctn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planet_ctn {
+    margin-left: 230px;
+    margin-top: 97px;
+}
+
+.about_ctn {
+    margin-right: 163px;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 445px;
+    height: 472px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin-top: 64px;
+}
+
+.bloc_tabs {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 34px;
+    align-items: center;
+}
+
+.tabs {
+    height: 34px;
+    /* border: 1px solid white; */
+    display: flex;
+    /* align-items: center; */
+    margin-right: 24px;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    padding-left: 0.5px;
+    font-family: var(--barlow-condensed-font);
+}
+
+.tabs:hover {
+    cursor: pointer;
+}
+
+.active_tabs {
+    border-bottom: 3px solid #ffffff;
+}
+
+.tabs:not(.active_tabs):hover {
+    border-bottom: 3px solid hsl(0, 0%, 50%);
+}
+
+.tabs:not(.active_tabs) {
+    color: #D0D6F9;
+}
+
+.planet_name {
+    /* height: 115px;
+    width: 333px; */
+    font-family: var(--bellefair-font);
+    font-size: 100px;
+    /* border: 1px solid red; */
+    margin-top: 37px;
+}
+
+.about_planet {
+    /* border: 1px solid red; */
+    font-size: 18px;
+    font-family: var(--barlow-font);
+    height: auto;
+    width: 444px;
+    line-height: 32px;
+    color: #D0D6F9;
+    margin-top: 14px;
+}
+
+.hr {
+    border: 1px solid #383B4B;
+    width: 444px;
+    padding-left: 1px;
+    margin-top: 54px;
+}
+
+.planet_est {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.title {
+    letter-spacing: 2.36px;
+    font-size: 14px;
+    font-family: var(--barlow-condensed-font);
+    color: #D0D6F9;
+}
+
+.dist {
+    font-size: 28px;
+    font-family: var(--bellefair-font);
+    margin-top: 12px;
+}
+
+.avg_ctn {
+    margin-left: 0.5px;
+    height: 61px;
+    /* width: 143px; */
+    /* border: 1px solid white; */
+}
+
+.est_time {
+    margin-right: 110.5px;
+    /* border: 1px solid white; */
+    height: 61px;
+    /* width: 122px; */
+}
+
+.content {
+    display: none;
+}
+
+.active_content {
+    display: block;
+}
+
+.image {
+    display: none;
+}
+
+.active_image {
+    display: block;
+}
+
+@media screen and (max-width: 1400px) {
+    .planet_ctn {
+        margin-left: 110px;
+    }
+
+    .pick_ctn {
+        margin-left: 66.5px;
+    }
+
+    .about_ctn {
+        margin-right: 110px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .planet_ctn {
+        margin-left: 35px;
+    }
+
+    .about_ctn {
+        margin-right: 35px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .app-container.destination {
+        background: url(../assets/destination/background-destination-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /* height: 100%; */
+    }
+
+    .info_ctn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .active_image {
+        width: 300px;
+    }
+
+    .pick_ctn span {
+        margin-right: 8px;
+    }
+
+    .pick_ctn {
+        margin-left: 38.5px;
+        margin-top: 40px;
+        letter-spacing: 3.38px;
+        font-size: 20px;
+        width: 272px;
+        height: 24px;
+    }
+
+    .about_ctn {
+        margin: 0;
+        justify-content: normal;
+        padding-bottom: 0;
+    }
+
+    .planet_ctn {
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    .container {
+        align-items: center;
+        margin-top: 53px;
+    }
+
+    .tabs:nth-last-of-type(1) {
+        margin-right: 0px;
+    }
+
+    .active_content {
+        text-align: center;
+    }
+
+    .planet_name {
+        font-size: 80px;
+        margin-top: 32px;
+    }
+
+    .about_planet {
+        font-size: 16px;
+        width: 573px;
+        line-height: 28px;
+        margin-top: 8px;
+    }
+
+    .hr {
+        width: 573px;
+        margin-top: 49px;
+        padding: 0;
+    }
+
+    .planet_est {
+        margin-top: 29px;
+        justify-content: space-evenly;
+    }
+
+    .est_time {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app-container.destination {
+        background: url(../assets/destination/background-destination-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /* height: 100%; */
+    }
+
+    .pick_ctn {
+        margin-top: 24px;
+        letter-spacing: 2.7px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 19px;
+    }
+
+    .planet_ctn {
+        margin-top: 32px;
+    }
+
+    .active_image {
+        width: 170px;
+        /* margin-top: 32px; */
+    }
+
+    .container {
+        margin-top: 26px;
+    }
+    
+    .tabs {
+        letter-spacing: 2.36px;
+        font-size: 14px;
+    }
+
+    .bloc_tabs {
+        height: 28px;
+    }
+
+    .planet_name {
+        margin-top: 20px;
+        font-size: 56px;
+    }
+
+    .about_planet {
+        margin-top: 1px;
+        font-size: 15px;
+        width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hr {
+        margin-top: 32px;
+        width: 327px;
+    }
+
+    .planet_est {
+        flex-direction: column;
+        margin-top: 32px;
+        margin-bottom: 58px;
+    }
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    .est_time {
+        margin-top: 32px;
+    }
+}
