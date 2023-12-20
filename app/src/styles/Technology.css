@@ -9,6 +9,7 @@
 
 .technology_ctn {
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 .space_launch {
@@ -145,6 +146,7 @@
         margin-left: 80px;
     }
 }
+
 @media screen and (max-width: 1300px) {
     .primaryTech_ctn {
         margin-left: 40px;

@@ -10,6 +10,7 @@
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 
 .mobile_meet {
@@ -144,7 +145,11 @@ br {
         margin-right: 80px;
     }
 
-    .meet, .crew_title, .crew_abt, .circle_ctn, .crew_name {
+    .meet,
+    .crew_title,
+    .crew_abt,
+    .circle_ctn,
+    .crew_name {
         margin-left: 100px;
     }
 }
@@ -154,7 +159,11 @@ br {
         margin-right: 70px;
     }
 
-    .meet, .crew_title, .crew_abt, .circle_ctn, .crew_name {
+    .meet,
+    .crew_title,
+    .crew_abt,
+    .circle_ctn,
+    .crew_name {
         margin-left: 70px;
     }
 }

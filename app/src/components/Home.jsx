@@ -3,8 +3,8 @@ import AnimatedPage from "../AnimatedPage";
 
 function Home() {
   return (
-    <AnimatedPage>
-      <section className="home-contents">
+    <section className="home-contents">
+      <AnimatedPage>
         <div className="primary-ctn">
           <p className="p1">So, you want to travel to</p>
           <p className="p2">Space</p>
@@ -15,6 +15,8 @@ function Home() {
             world experience!
           </p>
         </div>
+      </AnimatedPage>
+      <AnimatedPage>
         {/* <div className='hover'> */}
         <div className="secondary-ctn">
           <Link to="/destination" className="explore">
@@ -22,8 +24,8 @@ function Home() {
           </Link>
         </div>
         {/* </div> */}
-      </section>
-    </AnimatedPage>
+      </AnimatedPage>
+    </section>
   );
 }
 

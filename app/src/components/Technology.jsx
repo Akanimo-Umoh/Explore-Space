@@ -16,8 +16,8 @@ const Technology = () => {
   };
 
   return (
-    <AnimatedPage>
-      <div className="technology_ctn">
+    <div className="technology_ctn">
+      <AnimatedPage>
         <div className="space_launch">
           <span>03</span> SPACE LAUNCH 101
         </div>
@@ -137,8 +137,8 @@ const Technology = () => {
             </picture>
           </div>
         </div>
-      </div>
-    </AnimatedPage>
+      </AnimatedPage>
+    </div>
   );
 };
 

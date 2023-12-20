@@ -50,16 +50,17 @@ const Destination = () => {
   // ];
 
   return (
-    <AnimatedPage>
-      <div className="dest_ctn">
+    <div className="dest_ctn">
+      <AnimatedPage>
         <div className="pick_ctn">
           <span>01</span> PICK YOUR DESTINATION
         </div>
+
         <div className="about_ctn">
           <Tabs />
         </div>
-      </div>
-    </AnimatedPage>
+      </AnimatedPage>
+    </div>
   );
 };
 

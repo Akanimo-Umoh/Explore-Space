@@ -161,6 +161,10 @@
     display: block;
 }
 
+.dest_ctn {
+    overflow-x: hidden;
+}
+
 @media screen and (max-width: 1400px) {
     .planet_ctn {
         margin-left: 110px;
@@ -300,7 +304,7 @@
     .container {
         margin-top: 26px;
     }
-    
+
     .tabs {
         letter-spacing: 2.36px;
         font-size: 14px;

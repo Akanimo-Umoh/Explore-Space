@@ -51,8 +51,8 @@ function Crew() {
   };
 
   return (
-    <AnimatedPage>
-      <div className="crew_ctn">
+    <div className="crew_ctn">
+      <AnimatedPage>
         <div className="crew_main">
           <div className="meet">
             <span>02</span> MEET YOUR CREW
@@ -132,7 +132,8 @@ function Crew() {
             ></div>
           </div>
         </div>
-
+      </AnimatedPage>
+      <AnimatedPage>
         <div className="crew_img_ctn">
           <img
             className={
@@ -166,8 +167,8 @@ function Crew() {
         <div className="meet mobile_meet">
           <span>02</span> MEET YOUR CREW
         </div>
-      </div>
-    </AnimatedPage>
+      </AnimatedPage>
+    </div>
   );
 }
 
