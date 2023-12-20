@@ -19,6 +19,7 @@
     width: 830px;
     height: 96px;
     backdrop-filter: blur(8em);
+    -webkit-backdrop-filter: blur(8em);
     display: flex;
     justify-content: center;
     align-items: center;

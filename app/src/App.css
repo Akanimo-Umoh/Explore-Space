@@ -230,6 +230,7 @@
         width: auto;
         /* backdrop-filter: blur(81.55em); */
         backdrop-filter: contrast(0.9);
+        -webkit-backdrop-filter: contrast(0.9);
     }
 
     .primary-nav-ctn {
@@ -316,25 +317,6 @@
         z-index: 9999;
     }
 
-    /* .mobile {
-        position: absolute;
-        top: 0;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: normal;
-        right: 0;
-        margin: 0;
-        width: 68%;
-        backdrop-filter: blur(2em);
-        align-items: flex-start;
-        padding-left: 32px;
-        padding-top: 118px;
-        z-index: 1;
-        transition: transform 0.3s ease-out;
-        transform: translateX(100%);
-    } */
-
     .mobile {
         position: fixed;
         top: 0;
@@ -346,6 +328,7 @@
         margin: 0;
         width: 68%;
         backdrop-filter: blur(2em);
+        -webkit-backdrop-filter: blur(2em);
         align-items: flex-start;
         padding-left: 32px;
         padding-top: 118px;

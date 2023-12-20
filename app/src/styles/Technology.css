@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    rotate: 45deg;
+    transform: rotate(45deg);
     background: #0B0D17;
 }
 
