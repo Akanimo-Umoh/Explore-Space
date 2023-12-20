@@ -109,7 +109,7 @@
 .secondary-ctn:hover {
     /* border: 1px solid var(--white); */
     /* background: hsl(0, 0%, 30%); */
-    cursor: pointer;
+    /* cursor: pointer; */
     /* background: rgba(0, 0, 0, 0.4); */
     transition: 4s ease-in-out;
 }
@@ -130,6 +130,7 @@
     border-radius: 50%;
     text-decoration: none;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .explore:hover {
