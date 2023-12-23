@@ -379,6 +379,7 @@ br {
     .crew_info {
         margin-top: 32px;
         width: 327px;
+        height: auto;
     }
 
     .crew_name {
@@ -406,5 +407,15 @@ br {
 
     .anousheh_img {
         margin: 0;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .crew_info {
+        height: auto;
+    }
+
+    .crew_abt {
+        width: 300px;
     }
 }

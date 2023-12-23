@@ -323,3 +323,11 @@
         margin-top: 16px;
     }
 }
+
+@media screen and (max-width: 370px) {
+    .tech_details {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
